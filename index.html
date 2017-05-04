@@ -1,0 +1,21 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">  
+        <title>Jquery Basic</title>
+        <script src="jquery.min.js"></script>
+        <script>
+            //Here we are trying to change the hyperlink and the text of an existing link.
+            $(document).ready(function(){
+                $("#acadgild").attr({
+                    href : 'http://www.sqlite.org/'
+                });
+                $("#acadgild").text("Acadgild Tutorial");            
+            })
+        </script>
+    </head>
+    <body>
+        <a href="www.acadgild.com" id='acadgild'>jQuery Tutorial</a> 
+    </body>
+</html>
